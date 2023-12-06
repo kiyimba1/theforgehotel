@@ -1,0 +1,10 @@
+.footer {
+	background: #444444;
+	color: #f4f4f4;
+	text-align: center;
+	padding: 20px;
+}
+
+.footer h4 {
+	font-weight: 100;
+}

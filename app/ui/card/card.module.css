@@ -1,0 +1,24 @@
+.container {
+	padding: 20px;
+	text-align: center;
+	max-width: 370px;
+}
+
+.icon {
+	padding: 10px;
+}
+
+.title {
+	font-weight: 500;
+	padding: 10px;
+}
+
+.coloredBg {
+	background-color: #f7c08a;
+}
+
+@media screen and (min-width: 600) {
+	.container {
+		max-width: 33.3vw;
+	}
+}
