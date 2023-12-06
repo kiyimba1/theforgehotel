@@ -1,12 +1,14 @@
-/* .container {
+.container {
 	display: flex;
-} */
+}
 
 .historyImage {
 	display: none;
 }
 
 .historyContent {
+	display: flex;
+	flex-direction: column;
 	text-align: center;
 	padding: 20px;
 	background-color: #333333;
@@ -21,11 +23,13 @@
 	color: #f7c08a;
 }
 
+.details {
+	padding: 10px;
+}
+
 .button {
 	color: #333333;
 	background: #fffff9;
-	width: fit-content;
-	margin-top: 20px;
-	/* margin: 20px auto; */
+	margin: 20px auto;
 	padding: 20px;
 }

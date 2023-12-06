@@ -22,8 +22,7 @@ const HistorySection = () => {
 					</p>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-						doloremque nulla accusamus exercitationem. Accusantium tenetur,
-						optio dignissimos rerum obcaecati commodi.
+						doloremque nulla accusamus exercitationem.
 					</p>
 				</div>
 
