@@ -1,7 +1,3 @@
-.container {
-	display: flex;
-}
-
 .historyImage {
 	display: none;
 }
@@ -32,4 +28,26 @@
 	background: #fffff9;
 	margin: 20px auto;
 	padding: 20px;
+}
+
+@media screen and (min-width: 600px) {
+	.container {
+		display: flex;
+	}
+
+	.historyContent {
+		max-width: 50%;
+	}
+
+	.historyImage {
+		display: block;
+		max-width: 50%;
+		max-height: 500px;
+	}
+
+	.historyImage img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 }
